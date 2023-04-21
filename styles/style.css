@@ -87,9 +87,9 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
     width: 50%;
     text-align: center;
-    border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
@@ -104,6 +104,8 @@ body {
 
 .apresentacao_imagem {
     width: 50%;
+    border: 2px solid #C78C19;
+    border-radius: 15px;
 }
 
 .rodape {
@@ -132,5 +134,14 @@ body {
 
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .apresentacao__links__navegacao {
+        gap: 5px;
+        font-size: 1.2rem;
+    }
+
+    .apresentacao__icone {
+        
     }
 }
